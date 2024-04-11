@@ -113,7 +113,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid rgb(from var(--accent-color, #ff0070) r g b / 0.4);
+  outline: 1px solid rgb(from var(--nav-hover-color, #ff0070) r g b / 0.4);
   outline-offset: -1px;
 }
 

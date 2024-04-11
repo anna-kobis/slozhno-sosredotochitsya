@@ -9,6 +9,7 @@
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --cover-color: #ffc2e6;
+  --nav-hover-color: #32312d;
 }
 
 .page.theme_light {
@@ -28,16 +29,13 @@
   display: none;
 }
 
-.theme_light .header__theme-menu-button:hover {
-  outline-color: rgb(from var(--text-color, #353430) r g b / 0.4);
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #fff1f7;
     --text-color: #353430;
     --accent-color: #ff8dcb;
     --cover-color: #ffc2e6;
+    --nav-hover-color: #32312d;
   }
 
   .page {
@@ -50,9 +48,5 @@
 
   .decorative-sign {
     display: none;
-  }
-
-  .header__theme-menu-button:hover {
-    outline-color: rgb(from var(--text-color, #353430) r g b / 0.4);
   }
 }

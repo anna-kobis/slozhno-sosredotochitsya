@@ -11,6 +11,7 @@
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
   --cover-color: #db00ff;
+  --nav-hover-color: var(--accent-color, #ff0070);
 
   --small-margin: 10px;
   --medium-margin: 20px;

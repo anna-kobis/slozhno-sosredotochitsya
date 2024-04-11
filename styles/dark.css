@@ -9,6 +9,7 @@
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
   --cover-color: #db00ff;
+  --nav-hover-color: var(--accent-color, #ff0070);
 }
 
 .page.theme_dark {
@@ -30,8 +31,4 @@
 
 .theme_dark .decorative-sign {
   display: block;
-}
-
-.theme_dark .header__theme-menu-button:hover {
-  outline-color: rgb(from var(--accent-color, #ff0070) r g b / 0.4);
 }
