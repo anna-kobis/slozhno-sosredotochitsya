@@ -2,3 +2,27 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --main-font: 'IBM Plex mono';
+  --main-font-size: 18px;
+
+  --background-color: #000028;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --cover-color: #db00ff;
+
+  --small-margin: 10px;
+  --medium-margin: 20px;
+  --main-margin: var(--small-margin, 10px);
+  --main-padding: 40px;
+  --main-gap: 50px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --main-margin: var(--medium-margin, 20px);
+    --main-padding: 60px;
+    --main-gap: 80px;
+  }
+}
